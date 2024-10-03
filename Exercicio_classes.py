@@ -3,7 +3,7 @@ class Carro:
         self.nome = nome
         self._motor = None
         self._fabricante = None
-
+    #getter e setter do motor 
     @property
     def motor(self):
         return self._motor
@@ -11,7 +11,7 @@ class Carro:
     @motor.setter
     def motor(self, valor):
         self._motor = valor
-
+    #getter e setter do fabricante
     @property
     def fabricante(self):
         return self._fabricante
